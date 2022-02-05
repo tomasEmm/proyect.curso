@@ -1,0 +1,29 @@
+.box{
+    border-radius: 8px;
+    height: 40px;
+    width: 80px;
+    margin: 60px auto;
+  }
+  
+  .box1{
+    background-color: rgb(228, 214, 192);
+  }
+  
+  .box:hover{
+    transform: scale(4);
+    transform: all;
+    transition-duration: 2s;
+  }
+
+  .boxGreend{
+    background-color: wheat;
+  }
+  
+  .box1{
+    width: 50px;
+  
+  }
+  
+  .box-icon{
+    width: 24px;
+  }
