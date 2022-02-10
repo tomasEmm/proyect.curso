@@ -230,4 +230,19 @@ footer {
 img {
   width: 250px;
 }
+
+.redsocial, .redsocial--nueva {
+  border: 2px black;
+  background-color: #e7e1d8;
+}
+
+.redsocial--nueva {
+  font-size: 10px;
+}
+
+.box23 {
+  height: 55px;
+  width: 200px;
+  background-color: red;
+}
 /*# sourceMappingURL=estilos.css.map */

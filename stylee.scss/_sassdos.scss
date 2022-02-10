@@ -1,0 +1,21 @@
+.redsocial {
+    border: 2px $vnegro1; 
+    background-color: $vblanco2;
+}
+
+.redsocial--nueva{
+    @extend.redsocial;
+    font-size: 10px;
+}
+
+@mixin sizes($width,$height) {
+    height: $height;
+    width: $width;
+}
+
+.box23{
+    @include sizes(200px,55px);
+    background-color: red
+
+}
+    

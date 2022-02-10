@@ -8,13 +8,13 @@
   }
 
   h1, p {
-    background-color:$v2; }
+    background-color:$vblanco2; }
    
       
 
     h1{
         padding: 25px 25px 25px 25px;
-        border: 10px solid $v1 ; }
+        border: 10px solid $vnegro1 ; }
 
         p{
             border-style: outset;
@@ -29,13 +29,13 @@
   table{
     text-align: center;
     padding: 3px;
-    background-color: $v2;
-    color:$v1;
+    background-color: $vblanco2;
+    color:$vnegro1;
   }
   
   
   body{
-    background-image: linear-gradient(to left, $v1, $v2);
+    background-image: linear-gradient(to left, $vnegro1, $vblanco2);
   }
   
   
@@ -62,7 +62,7 @@
   
   
   a {
-    color: $v1;
+    color: $vnegro1;
     
     text-decoration: none;
     
@@ -83,8 +83,8 @@
   }
   
   div {
-    background-color: $v2;
-    color: $v1 ;
+    background-color: $vblanco2;
+    color: $vnegro1;
     padding: 1rem;
   }
   
