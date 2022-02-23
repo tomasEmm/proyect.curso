@@ -8,16 +8,18 @@ h1, p {
 }
 
 h1 {
+  text-align: center;
   padding: 25px 25px 25px 25px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9da2ae), color-stop(#f2f3fb), to(#1c2444));
+  background-image: linear-gradient(#9da2ae, #f2f3fb, #1c2444);
   border: 10px solid black;
 }
 
 p {
-  border-style: outset;
-}
-
-em, strong {
-  background-color: #e7e1d8;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9da2ae), color-stop(#f2f3fb), to(#d5d9f6));
+  background-image: linear-gradient(#9da2ae, #f2f3fb, #d5d9f6);
+  border: 5px solid black;
 }
 
 table {
@@ -28,8 +30,8 @@ table {
 }
 
 body {
-  background-image: -webkit-gradient(linear, right top, left top, from(black), to(#e7e1d8));
-  background-image: linear-gradient(to left, black, #e7e1d8);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9da2ae), color-stop(#f2f3fb), to(#1c2444));
+  background-image: linear-gradient(#9da2ae, #f2f3fb, #1c2444);
 }
 
 nav ul li {
@@ -48,9 +50,14 @@ li {
 }
 
 a {
-  color: black;
+  color: #9c2292;
   text-decoration: none;
   font-size: 25px;
+}
+
+.btn {
+  color: #9c2292;
+  border: solid #9c2292;
 }
 
 main {
@@ -66,16 +73,62 @@ main {
 }
 
 div {
-  background-color: #e7e1d8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9da2ae), color-stop(#f2f3fb), to(#1c2444));
+  background-image: linear-gradient(#9da2ae, #f2f3fb, #1c2444);
   color: black;
   padding: 1rem;
 }
 
+.formulario {
+  width: 500px;
+  margin: auto;
+  border: 3px solid black;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9da2ae), color-stop(#f2f3fb), to(#d5d9f6));
+  background-image: linear-gradient(#9da2ae, #f2f3fb, #d5d9f6);
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9da2ae), color-stop(#f2f3fb), to(#1c2444));
+  background-image: linear-gradient(#9da2ae, #f2f3fb, #1c2444);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contactos {
+  text-align: center;
+  margin: auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9da2ae), color-stop(#f2f3fb), to(#1c2444));
+  background-image: linear-gradient(#9da2ae, #f2f3fb, #1c2444);
+}
+
+.color {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9da2ae), color-stop(#f2f3fb), to(#1c2444));
+  background-image: linear-gradient(#9da2ae, #f2f3fb, #1c2444);
+}
+
+.cuadro {
+  text-align: center;
+  margin: auto;
+  border: 3px solid black;
+}
+
 .box {
-  border-radius: 8px;
-  height: 40px;
-  width: 80px;
-  margin: 60px auto;
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+  margin: 20px auto;
 }
 
 .box1 {
@@ -83,8 +136,8 @@ div {
 }
 
 .box:hover {
-  -webkit-transform: scale(4);
-          transform: scale(4);
+  -webkit-transform: scale(2);
+          transform: scale(2);
   -webkit-transform: all;
           transform: all;
   -webkit-transition-duration: 2s;
@@ -105,9 +158,75 @@ div {
 
 footer {
   text-align: center;
-  padding: 3px;
+  padding: 6px;
   background-color: #e4d6c0;
-  color: #111010;
+  color: #fde6e6;
+}
+
+:root {
+  --footer-bg: #1c2444;
+  --color: #f2f3fb;
+  --color-smooth: #9da2ae;
+  --input-border: #3a456a;
+  --btn-bg-color: #f1f2fc;
+  --btn-hover-bg: #d5d9f6;
+  --btn-color: #1e2641;
+}
+
+footer {
+  font-size: 10px;
+  background: var(--footer-bg);
+  padding: 2em 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1em;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.col-title {
+  font-family: "Merriweather", serif;
+  color: var(--color);
+  font-size: 1.7em;
+  font-weight: 500;
+  padding: 0.50em 0;
+}
+
+.col-list a {
+  color: var(--color-smooth);
+  text-decoration: none;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.col-list a:hover,
+.col-list a:focus {
+  text-decoration: underline;
+}
+
+.subscribe-form,
+.social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5em;
+  padding: 0.5em 0;
 }
 
 .contenedor {
@@ -145,6 +264,26 @@ footer {
 .imagenConsola {
   width: 600px;
   height: 500px;
+}
+
+.imagenMsi {
+  width: 600px;
+  height: 400px;
+}
+
+.imagenEstacion {
+  width: 600px;
+  height: 400px;
+}
+
+.imgagenEstaciongamer {
+  width: 600px;
+  height: 400px;
+}
+
+.imagenCorsair {
+  width: 600px;
+  height: 400px;
 }
 
 .gallery {
@@ -231,6 +370,29 @@ img {
   width: 250px;
 }
 
+.magen2 {
+  width: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cardimg {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+}
+
+.carousel {
+  text-align: center;
+}
+
+.flecha {
+  color: black;
+}
+
 .redsocial, .redsocial--nueva {
   border: 2px black;
   background-color: #e7e1d8;
@@ -243,6 +405,6 @@ img {
 .box23 {
   height: 55px;
   width: 200px;
-  background-color: red;
+  background-color: #e7e1d8;
 }
 /*# sourceMappingURL=estilos.css.map */

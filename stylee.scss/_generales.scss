@@ -13,18 +13,20 @@
       
 
     h1{
+      text-align: center;
         padding: 25px 25px 25px 25px;
+        background-image: linear-gradient($wa,$wd,$wr);
         border: 10px solid $vnegro1 ; }
 
         p{
-            border-style: outset;
+          text-align: center;
+          background-image: linear-gradient($wa,$wd,$qe);
+          border: 5px solid $vnegro1 ;
            
             
            }
 
            
-  em, strong {background-color: rgb(231, 225, 216);
-  }
   
   table{
     text-align: center;
@@ -35,38 +37,41 @@
   
   
   body{
-    background-image: linear-gradient(to left, $vnegro1, $vblanco2);
+    background-image: linear-gradient($wa,$wd,$wr,);
   }
   
   
   
   nav ul li {
-  
-    font-family: Arial, sans-serif;
+   font-family: Arial, sans-serif;
     padding: 15px 10px 15px 10px;
     margin-top: 15px;
     margin-left: 15px;
     display: inline-block; }
 
     
-    
-    
+
     li{
+      
       padding: 15px 10px 15px 10px;
       margin-top: 35px;
       margin-left: 35px;
-      display: inline-block;
+      display: inline-block;}
       
   
-   }
+    
   
   
   a {
-    color: $vnegro1;
+    color: rgb(156, 34, 146);
     
     text-decoration: none;
     
     font-size: 25px;
+  }
+
+  .btn {color: rgb(156, 34, 146);
+    border: solid rgb(156, 34, 146) ;
   }
     
   
@@ -83,8 +88,50 @@
   }
   
   div {
-    background-color: $vblanco2;
+    background-image: linear-gradient($wa,$wd,$wr,);
     color: $vnegro1;
     padding: 1rem;
   }
   
+
+  .formulario{
+    width: 500px;
+      margin: auto;
+      border: 3px solid $vnegro1 ;
+      background-image: linear-gradient($wa,$wd,$qe,);
+    text-align: center;
+    }
+
+    .logo{
+      text-align: center;
+    }
+    
+    .card{
+      text-align: center;
+      background-image: linear-gradient($wa,$wd,$wr,);
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+     margin: 0;
+     padding: 0;
+    
+    }
+    
+    .contactos{
+      text-align: center;
+      margin: auto;
+       background-image: linear-gradient($wa,$wd,$wr,)
+    }
+
+    .color{ background-image: linear-gradient($wa,$wd,$wr,)
+
+    }
+    .cuadro{
+      text-align: center;
+      margin: auto;
+      border: 3px solid $vnegro1
+
+    }
+
+   
+    

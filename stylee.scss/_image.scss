@@ -27,6 +27,28 @@
 
   
 
+  
+
+  .imagenMsi{
+    width: 600px;
+    height: 400px;
+  }
+  
+
+  .imagenEstacion{
+    width: 600px;
+    height: 400px;
+  }
+  
+.imgagenEstaciongamer{
+  width: 600px;
+  height: 400px;
+}
+
+.imagenCorsair{
+  width: 600px;
+  height: 400px;
+}
 
 
 
@@ -152,6 +174,33 @@
   
   }
 
-  img{
+  img {
     width: 250px;
   }
+
+  .magen2{
+    width: 250px;
+  
+    object-fit: cover;
+  
+    }
+   
+  
+    
+    .cardimg{
+      width: 100%; 
+      height: auto;
+      display: flex;
+  padding: 1rem;
+    }
+  
+
+    .carousel { text-align: center;
+
+    }
+
+    .flecha{
+      color: $vnegro1;
+    }
+    
+    
